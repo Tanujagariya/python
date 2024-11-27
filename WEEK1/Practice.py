@@ -102,3 +102,66 @@ print(primenumbers)
 primenumbers= 7 in primenumbers
 print("7 is present in pimenumbers ")
 print("Final set of prime numbers:", primenumbers)
+
+
+#^^^^^^^^^^^^^^^^^^^^^^PRACTICE09^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+vowels={"a","e","i","O","u"}
+print(vowels)
+charvowels = "e" in vowels
+print("e in vowels ", charvowels)
+charvowels= "w" in vowels
+print("w in vowels ", charvowels)
+
+
+#&&&&&&&&&&&&&&&&&&&&PRACTICE10&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+studentdetail={"name":"tanuja",
+               "age":"20",
+               "grade":"76"
+               }
+studentdetail["age"] = 21  
+
+
+studentdetail['favourate subject']="chemistry"
+print(studentdetail)
+
+
+
+#********************PRACTICE11***************
+
+city_populations = {
+    'New York': 8623000,
+    'Los Angeles': 3990456,
+    'Chicago': 2705994,
+    'Houston': 2320268,
+    'Phoenix': 1680992
+}
+
+
+population_population = city_populations.get('New York')
+print(f"Population of New York: {population_population}")
+removed_city = city_populations.pop('Phoenix')
+print(f"Removed city: {removed_city}")
+print("Final dictionary after removing Phoenix:")
+print(city_populations)
+
+
+#@@@@@@@@@@@@@@@@@@PRACTICE12@@@@@@@@@@@@@@@@
+
+countries_info = {
+    'India': {'capital': 'New Delhi', 'population': 1393409038},
+    'Brazil': {'capital': 'Brasília', 'population': 213993437},
+    'USA': {'capital': 'Washington D.C.', 'population': 331449281},
+    'China': {'capital': 'Beijing', 'population': 1444216107},
+    
+}
+
+capital_china = countries_info['China']['capital']
+print(f"The capital of india is: {capital_china}")
+countries_info['USA']['population'] = 332915073  
+print("\nFinal dictionary after updates:")
+print(countries_info)
+
+

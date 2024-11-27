@@ -5,6 +5,6 @@ a,b,c,d,e,f,g,h,i,j=mytuple
 print(a,b,c,d,e,f,g,h,i,j)
 print(a,b,c,d,e)
 
-
+print()
 
 
